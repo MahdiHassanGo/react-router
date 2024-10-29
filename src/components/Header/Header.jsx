@@ -4,8 +4,9 @@ const Header = () => {
   return (
     <nav>
       <span>My website</span>
-      <div className="flex justify-between">
-        <Link to="/">Home</Link>
+      <div >
+        <Link  to="/">Home</Link>
+        <Link to="/users">Users</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
       </div>
